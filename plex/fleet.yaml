@@ -1,0 +1,6 @@
+namespace: plex
+helm:
+  releaseName: k8s-at-home/plex
+  chart: https://k8s-at-home.com/charts/
+  valuesFiles:
+    - values.yaml
